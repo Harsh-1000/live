@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.content
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color:lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 2px grey;
+    position: fixed;
+   
+}
+
+
+
+.list li a{
+    text-decoration: none;
+    color:black
+
+}
+
+
+
+.nav{
+
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav .list{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nav .list li {
+    padding: 20px;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav .list li:hover{
+    background-color: whitesmoke; 
+}
+
+.nav :hover{
+    color: red;
+}
+
+
+
+#banner
+{
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-image: url("https://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-2.jpg");
+     background-position: center;
+     background-size: cover;
+
+}
+
+#section-1
+{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+}
+
+#section-1 .circle{
+
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color:white;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+#circle-1
+{
+    background-image: url("../img/earth.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#circle-2
+{
+    background-image: url("../img/moon4.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#circle-3
+{
+    background-image: url("../img/sun.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#circle-4
+{
+    background-image: url("../img/mars2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#section-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+#block-1
+{
+    width: 49%;
+    height: 550px;
+    display: inline-block;
+    background-color: grey;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#block-2
+{
+    width: 49%;
+    height: 550px;
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#block-2 .article{
+
+    background-color: chocolate;
+    display: block;
+    width: 100%;
+    height: 160px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#section-3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.box{
+
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.card:hover{
+
+    transform: rotateY(180deg);
+
+}
+
+.card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+
+.card #frontcard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    backface-visibility: hidden;
+}
+
+#card1 #frontcard{
+    background-image: url("../img/p1.png");
+}
+
+
+#card2 #frontcard{
+    background-image: url("../img/p2.png");
+}
+
+
+#card3 #frontcard{
+    background-image: url("../img/p3.png");
+}
+
+
+#card4 #frontcard{
+    background-image: url("../img/p4.png");
+}
+
+#backcard{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: rgb(117, 199, 117);
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#footer
+{
+    width: 100%;
+    height: 100px;
+    background-color: plum;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
