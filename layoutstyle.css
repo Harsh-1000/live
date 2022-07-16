@@ -108,28 +108,28 @@
 
 #circle-1
 {
-    background-image: url("../img/earth.png");
+    background-image: url("./img/earth.png");
     background-size: cover;
     background-position: center;
 }
 
 #circle-2
 {
-    background-image: url("../img/moon4.png");
+    background-image: url("./img/moon4.png");
     background-size: cover;
     background-position: center;
 }
 
 #circle-3
 {
-    background-image: url("../img/sun.png");
+    background-image: url("./img/sun.png");
     background-size: cover;
     background-position: center;
 }
 
 #circle-4
 {
-    background-image: url("../img/mars2.png");
+    background-image: url("./img/mars2.png");
     background-size: cover;
     background-position: center;
 }
@@ -216,22 +216,22 @@
 }
 
 #card1 #frontcard{
-    background-image: url("../img/p1.png");
+    background-image: url("./img/p1.png");
 }
 
 
 #card2 #frontcard{
-    background-image: url("../img/p2.png");
+    background-image: url("./img/p2.png");
 }
 
 
 #card3 #frontcard{
-    background-image: url("../img/p3.png");
+    background-image: url("./img/p3.png");
 }
 
 
 #card4 #frontcard{
-    background-image: url("../img/p4.png");
+    background-image: url("./img/p4.png");
 }
 
 #backcard{
